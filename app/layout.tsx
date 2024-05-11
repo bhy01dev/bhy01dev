@@ -7,12 +7,13 @@ import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
 import { baseUrl } from './sitemap'
+import ''
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
     default: 'bhy01dev',
-    template: '%s | Next.js Portfolio Starter',
+    template: 'bhy01dev',
   },
   description: 'This is my portfolio.',
   openGraph: {
