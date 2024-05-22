@@ -21,9 +21,6 @@ export default function Footer() {
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
         © {new Date().getFullYear()} MIT Licensed
       </p>
-      <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-        <script src="https://tryhackme.com/badge/3099866"></script>
-      </p>
     </footer>
   )
 }
